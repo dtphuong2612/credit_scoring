@@ -67,8 +67,7 @@ Below is a detailed table of results on the validation set and test set of the m
 
 Below are the model results after selecting the feature based on the feature importance weight.
 
-
-
+![image](https://github.com/dtphuong2612/credit_scoring/assets/81805609/732a8d15-0e09-4198-a396-e5ac29d8956e)
 
 ## Future Improvements
 

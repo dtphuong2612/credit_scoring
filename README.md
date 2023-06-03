@@ -63,7 +63,7 @@ This project trained and evaluated many models including Logistic Regression, SV
 
 Below is a detailed table of results on the validation set and test set of the models used in the project.
 
-![image-20230603235817383](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20230603235817383.png)
+![image-20230603235817383](D:\A_Thesis\credit_scoring\Result\Screenshot 2023-06-04 015040.png)
 
 Below are the model results after selecting the feature based on the feature importance weight.
 

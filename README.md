@@ -64,6 +64,7 @@ This project trained and evaluated many models including Logistic Regression, SV
 Below is a detailed table of results on the validation set and test set of the models used in the project.
 
 ![Screenshot 2023-06-04 015040](https://user-images.githubusercontent.com/81805609/243126890-4a7e0125-9083-4fc9-bbb5-03c68dbd58bc.png)
+
 Below are the model results after selecting the feature based on the feature importance weight.
 
 ![image](https://user-images.githubusercontent.com/81805609/243127449-732a8d15-0e09-4198-a396-e5ac29d8956e.png)

@@ -50,13 +50,13 @@ This project was built upon a dataset from AYA Bank, Myanmar, in 2021. The datas
 ## Notebook Structure
 
 The jupyter notebook structure includes:
-- **Data preprocessing**: the process of cleaning and preparing data for analysis. This may involve removing missing values, dealing with outliers, transforming data into a format that is suitable for analysis, feature enigneering, feature selecting, and so on.
+- **EDA_creditCard**: the process of cleaning and preparing data for analysis. This may involve removing missing values, dealing with outliers, transforming data into a format that is suitable for analysis, feature enigneering, feature selecting, and so on. The process of exploring data to gain insights into its distribution, patterns, and relationships using statistical methods, visualization techniques, and hypothesis testing.
 
-- **Exploratory Data Analysis**: the process of exploring data to gain insights into its distribution, patterns, and relationships using statistical methods, visualization techniques, and hypothesis testing.
+- **Model_V1**: includes model training notebook and result set of trained models
 
-- **Model training**: the process of building a model that can make predictions from data. The notebook use 5 models are Logistic Regression, Support Vector Machine, Random Forest, Gradient Boosting Classifier, Cat Boost Classifier with k-fold cross-validatoin methods.
+- **Model_V2**: includes analysis of results and selection of important features for each model. And that includes the process of retraining models with important features.
 
-- **Model Tuning**: analyze the results and select feature importance and retrain the model.
+- **loan_fn.csv**: Data set after preprocessing data to put into training model.
 ## Results
 
 This project trained and evaluated many models including Logistic Regression, SVM, Random Forest, XGBoost, Garadient Boosting, and CATBoost. Models are trained on a dataset that includes demographic information, loan information, and customer transaction history.

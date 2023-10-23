@@ -1,17 +1,17 @@
 
-# Revolutionizing Credit Scoring in AYA Bank, Myanmar: Machine Learning Approaches for Risk Management
+# Revolutionizing Credit Scoring in Myanmar: Machine Learning Approaches for Risk Management
 
-This project aims to revolutionize credit scoring in AYA Bank, Myanmar, by using machine learning approaches to improve the accuracy and efficiency of risk management.
+This project aims to revolutionize credit scoring in Myanmar, by using machine learning approaches to improve the accuracy and efficiency of risk management.
 
 
 
 
 ## Backgound
 
-Credit scoring plays a crucial role in the lending industry, enabling financial institutions to evaluate the creditworthiness of individuals or businesses seeking loans. Traditionally, credit scoring has relied on manual processes and subjective assessments, leading to inefficiencies and potential biases. By leveraging machine learning algorithms and techniques, this project seeks to enhance the credit scoring process in AYA Bank, Myanmar, resulting in more accurate and objective risk assessments.
+Credit scoring plays a crucial role in the lending industry, enabling financial institutions to evaluate the creditworthiness of individuals or businesses seeking loans. Traditionally, credit scoring has relied on manual processes and subjective assessments, leading to inefficiencies and potential biases. By leveraging machine learning algorithms and techniques, this project seeks to enhance the credit scoring process in Myanmar, resulting in more accurate and objective risk assessments.
 ## Goals
 
-The goal of this project is to build a credit scoring machine learning model for risk management for AYA bank:
+The goal of this project is to build a credit scoring machine learning model for risk management:
 
 - Understand the data of loan history and customer data to build the model
 
@@ -24,10 +24,10 @@ The goal of this project is to build a credit scoring machine learning model for
 ## Reseach methods
 
 Some research methods that have been used in the project to improve the machine
-learning model for credit scoring in the risk management strategy of AYA Bank in Myanmar:
-- **Data collection**: Data in project include the borrower’s payment history, the amount of debt they have, the length of their credit history, employment history and income.
+learning model for credit scoring in the risk management strategy in Myanmar:
+- **Data collection**: Data in the project include the borrower’s payment history, the amount of debt they have, the length of their credit history, employment history, and income.
 
-- **Data Cleaning**: Data has been cleaned after collected to remove any errors or inconsistencies. This will ensure that the model is trained on the correct data.
+- **Data Cleaning**: Data has been cleaned after collection to remove any errors or inconsistencies. This will ensure that the model is trained on the correct data.
 
 - **Feature Engineering**: After the data is clean, we need to design the features from the data. Features are the variables used to train the model. Features can be created by combining existing variables or by creating new ones from scratch.
 
@@ -41,7 +41,7 @@ learning model for credit scoring in the risk management strategy of AYA Bank in
 
 ## Data
 
-This project was built upon a dataset from AYA Bank, Myanmar, in 2021. The dataset comprises three distinct data frames:
+This project was built upon a dataset from the Bank of Myanmar, in 2021. The dataset comprises three distinct data frames:
 
 * The first data frame (named "Customer-info.csv") presents the demographic information of 115,848 customers. It encompasses various attributes such as ID, Name, date of birth, marital status, account status, onboarding branch ID, onboarding time, etc. 
 * The second data frame (named "Loan-infomation.csv") describes the loan information of 15005 customers including debit/credit accounts, credit purposes, disbursement amount,  interest, date of the end of the tenor, etc.
@@ -49,8 +49,8 @@ This project was built upon a dataset from AYA Bank, Myanmar, in 2021. The datas
 
 ## Notebook Structure
 
-The jupyter notebook structure includes:
-- **EDA_creditCard**: the process of cleaning and preparing data for analysis. This may involve removing missing values, dealing with outliers, transforming data into a format that is suitable for analysis, feature enigneering, feature selecting, and so on. The process of exploring data to gain insights into its distribution, patterns, and relationships using statistical methods, visualization techniques, and hypothesis testing.
+The Jupyter Notebook structure includes:
+- **EDA_creditCard**: the process of cleaning and preparing data for analysis. This may involve removing missing values, dealing with outliers, transforming data into a format that is suitable for analysis, feature engineering, feature selecting, and so on. The process of exploring data to gain insights into its distribution, patterns, and relationships using statistical methods, visualization techniques, and hypothesis testing.
 
 - **Model_V1**: includes model training notebook and result set of trained models
 
@@ -59,7 +59,7 @@ The jupyter notebook structure includes:
 - **loan_fn.csv**: Data set after preprocessing data to put into training model.
 ## Results
 
-This project trained and evaluated many models including Logistic Regression, SVM, Random Forest, XGBoost, Garadient Boosting, and CATBoost. Models are trained on a dataset that includes demographic information, loan information, and customer transaction history.
+This project trained and evaluated many models including Logistic Regression, SVM, Random Forest, XGBoost, Gradient Boosting, and CATBoost. Models are trained on a dataset that includes demographic information, loan information, and customer transaction history.
 
 Below is a detailed table of results on the validation set and test set of the models used in the project.
 
@@ -74,4 +74,4 @@ Below are the model results after selecting the feature based on the feature imp
 
 In the future, the study could be replicated with a larger sample size of borrowers. This would help to increase the generalizability of the findings. In addition, the study could be extended to include the impact of macroeconomic factors on credit risk. This would help to make lending decisions more informed.
 
-Furthermore, study provides valuable insights and a blueprint for other banks and financial institutions seeking to revolutionize their credit scoring practices using machine learning techniques. The high performance metrics achieved in our study serve as evidence for the potential of machine learning to transform credit risk management in the banking industry.
+Furthermore, the study provides valuable insights and a blueprint for other banks and financial institutions seeking to revolutionize their credit scoring practices using machine learning techniques. The high-performance metrics achieved in our study serve as evidence for the potential of machine learning to transform credit risk management in the banking industry.
